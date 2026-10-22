@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "certifi",
+    "version": "2026.10.19",
+    "type": "pure-python",
+    "category": "network",
+    "description": "Python package for providing Mozilla's CA Bundle",
+    "homepage": "https://pypi.org/project/certifi/",
+    "license": "MPL-2.0"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2026.10.19.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "certifi",
+    "command": "python3.13 -c 'import certifi; print(certifi.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "certifi-2026.10.19-py3-none-any.whl"
+  }
+}

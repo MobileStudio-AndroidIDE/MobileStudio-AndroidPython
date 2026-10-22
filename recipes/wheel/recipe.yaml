@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "wheel",
+    "version": "0.48.0",
+    "type": "pure-python",
+    "category": "build-tools",
+    "description": "A built-package format for Python",
+    "homepage": "https://pypi.org/project/wheel/",
+    "license": "MIT"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/w/wheel/wheel-0.48.0.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "wheel",
+    "command": "python3.13 -c 'import wheel; print(wheel.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "wheel-0.48.0-py3-none-any.whl"
+  }
+}

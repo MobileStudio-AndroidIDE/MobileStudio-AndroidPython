@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "requests",
+    "version": "2.34.2",
+    "type": "pure-python",
+    "category": "network",
+    "description": "Python HTTP for Humans",
+    "homepage": "https://pypi.org/project/requests/",
+    "license": "Apache-2.0"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/r/requests/requests-2.34.2.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": ["urllib3", "certifi", "charset-normalizer", "idna"],
+  "test": {
+    "import": "requests",
+    "command": "python3.13 -c 'import requests; print(requests.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "requests-2.34.2-py3-none-any.whl"
+  }
+}

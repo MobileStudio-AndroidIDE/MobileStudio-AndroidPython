@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "idna",
+    "version": "3.20",
+    "type": "pure-python",
+    "category": "network",
+    "description": "Internationalized Domain Names in Applications (IDNA)",
+    "homepage": "https://pypi.org/project/idna/",
+    "license": "BSD-3-Clause"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/i/idna/idna-3.20.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "idna",
+    "command": "python3.13 -c 'import idna; print(idna.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "idna-3.20-py3-none-any.whl"
+  }
+}

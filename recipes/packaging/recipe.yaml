@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "packaging",
+    "version": "26.3",
+    "type": "pure-python",
+    "category": "build-tools",
+    "description": "Core utilities for Python packages",
+    "homepage": "https://pypa.github.io/packaging/",
+    "license": "Apache-2.0"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/p/packaging/packaging-26.3.tar.gz",
+    "sha256": "d7193f7c8e4e93f4c3e2a1b5e3d4f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "packaging",
+    "command": "python3.13 -c 'import packaging; print(packaging.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "packaging-26.3-py3-none-any.whl"
+  }
+}

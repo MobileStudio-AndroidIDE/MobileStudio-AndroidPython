@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "type": "pure-python",
+    "category": "network",
+    "description": "HTTP library with thread-safe connection pooling, file post, and more",
+    "homepage": "https://pypi.org/project/urllib3/",
+    "license": "MIT"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.8.0.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "urllib3",
+    "command": "python3.13 -c 'import urllib3; print(urllib3.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "urllib3-2.8.0-py3-none-any.whl"
+  }
+}

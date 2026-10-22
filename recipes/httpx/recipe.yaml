@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "httpx",
+    "version": "0.28.1",
+    "type": "pure-python",
+    "category": "network",
+    "description": "The next generation HTTP client",
+    "homepage": "https://pypi.org/project/httpx/",
+    "license": "BSD-3-Clause"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.28.1.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": ["certifi", "httpcore", "idna", "sniffio"],
+  "test": {
+    "import": "httpx",
+    "command": "python3.13 -c 'import httpx; print(httpx.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "httpx-0.28.1-py3-none-any.whl"
+  }
+}

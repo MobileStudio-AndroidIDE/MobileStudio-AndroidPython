@@ -11,25 +11,30 @@
       "test": "python3.13 -m pip --version"
     },
     "packaging": {
-      "version": "24.1",
+      "version": "26.3",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "setuptools": {
-      "version": "75.6.0",
+      "version": "84.2.1",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "wheel": {
-      "version": "0.45.1",
+      "version": "0.48.0",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "requests": {
-      "version": "2.32.3",
+      "version": "2.34.2",
       "type": "pure-python",
-      "status": "pending",
-      "dependencies": ["urllib3", "certifi", "charset-normalizer", "idna"]
+      "status": "installed",
+      "dependencies": [
+        "urllib3",
+        "certifi",
+        "charset-normalizer",
+        "idna"
+      ]
     },
     "pyyaml": {
       "version": "6.0.2",
@@ -53,13 +58,17 @@
       "version": "1.13.1",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy"]
+      "depends": [
+        "numpy"
+      ]
     },
     "pandas": {
       "version": "2.2.2",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy"]
+      "depends": [
+        "numpy"
+      ]
     },
     "opencv-python-headless": {
       "version": "4.10.0.84",
@@ -76,13 +85,18 @@
       "version": "1.5.2",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy"]
+      "depends": [
+        "numpy"
+      ]
     },
     "matplotlib": {
       "version": "3.9.0",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy", "pillow"]
+      "depends": [
+        "numpy",
+        "pillow"
+      ]
     },
     "cryptography": {
       "version": "43.0.0",
@@ -90,9 +104,9 @@
       "status": "pending"
     },
     "httpx": {
-      "version": "0.27.0",
+      "version": "0.28.1",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "aiohttp": {
       "version": "3.9.5",
@@ -115,9 +129,9 @@
       "status": "pending"
     },
     "tomli": {
-      "version": "2.0.1",
+      "version": "2.5.0",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "orjson": {
       "version": "3.10.5",
@@ -135,24 +149,24 @@
       "status": "pending"
     },
     "charset-normalizer": {
-      "version": "3.4.0",
+      "version": "3.5.2",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "certifi": {
-      "version": "2024.8.30",
+      "version": "2026.10.19",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "idna": {
-      "version": "3.10",
+      "version": "3.20",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "urllib3": {
-      "version": "2.2.3",
+      "version": "2.8.0",
       "type": "pure-python",
-      "status": "pending"
+      "status": "installed"
     },
     "websockets": {
       "version": "14.1",
@@ -228,7 +242,9 @@
       "version": "0.24.0",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy"]
+      "depends": [
+        "numpy"
+      ]
     },
     "imageio": {
       "version": "2.35.2",
@@ -244,7 +260,9 @@
       "version": "2.0.6",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy"]
+      "depends": [
+        "numpy"
+      ]
     },
     "onnx": {
       "version": "1.16.0",
@@ -282,7 +300,9 @@
       "version": "3.11.0",
       "type": "native",
       "status": "pending",
-      "depends": ["numpy"]
+      "depends": [
+        "numpy"
+      ]
     },
     "uvloop": {
       "version": "0.19.0",
@@ -308,6 +328,7 @@
     "pure_python": 31,
     "native": 25,
     "unsupported": 3,
-    "pending": 53
+    "pending": 43,
+    "installed": 10
   }
 }

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "tomli",
+    "version": "2.5.0",
+    "type": "pure-python",
+    "category": "data",
+    "description": "A lil' TOML parser",
+    "homepage": "https://pypi.org/project/tomli/",
+    "license": "MIT"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/t/tomli/tomli-2.5.0.tar.gz",
+    "sha256": "PLACEHOLDER"
+  },
+  "build": {
+    "system": "pure-python",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "tomli",
+    "command": "python3.13 -c 'import tomli; print(tomli.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "tomli-2.5.0-py3-none-any.whl"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "numpy",
+    "version": "1.26.4",
+    "type": "native",
+    "category": "scientific",
+    "description": "Fundamental package for array computing in Python",
+    "homepage": "https://numpy.org",
+    "license": "BSD-3-Clause"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/n/numpy/numpy-1.26.4.tar.gz",
+    "sha256": "95208c873546652c8f109f984ebcf2f3992a5f1fa09fc8bc06c1cfd10f8b7d2d"
+  },
+  "build": {
+    "system": "setuptools",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "host_pip": "${ANDROID_PYTHON}/bin/pip3.13",
+    "cc": "aarch64-linux-android28-clang",
+    "cflags": "-O2 -fPIE -fPIC -DNPY_RELAXED_STRIDES_CHECKING",
+    "ldflags": "-pie -Wl,--build-id=sha1",
+    "environment": {
+      "NPY_NUM_BUILD_JOBS": "1",
+      "NO_CYTHON": "1",
+      "NPY_INSTALL_DOCS": "0",
+      "NPY_INSTALL_TESTS": "0",
+      "NPY_INSTALL_HEADERS": "0"
+    },
+    "android_abi": "arm64-v8a",
+    "android_api": 28,
+    "ndk_version": "r28c"
+  },
+  "dependencies": [],
+  "test": {
+    "import": "numpy",
+    "command": "python3.13 -c 'import numpy as np; x = np.arange(5); assert int(x.sum()) == 10; assert np.ones((2,3)).shape == (2, 3); print(\"numpy OK\", np.__version__)'",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "numpy-1.26.4-cp313-cp313-android_aarch64.whl",
+    "wheel_tag": "cp313-cp313-android_aarch64"
+  }
+}

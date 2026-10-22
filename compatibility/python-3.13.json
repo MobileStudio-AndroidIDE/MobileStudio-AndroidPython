@@ -1,0 +1,60 @@
+{
+  "schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/compatibility-v1.json",
+  "python_version": "3.13.0",
+  "android_abi": "arm64-v8a",
+  "android_api": 28,
+  "build_environment": {
+    "ndk_version": "r28c",
+    "cmake_version": "3.28.3",
+    "clang_version": "19.0.1",
+    "host_system": "linux-x86_64",
+    "cross_toolchain": "aarch64-linux-android"
+  },
+  "runtime_location": "/home/limsemin/AndroidPython",
+  "test_status": {
+    "qemu_available": false,
+    "device_available": false,
+    "build_tested": true,
+    "import_tested": false,
+    "native_extension_tested": false
+  },
+  "package_categories": {
+    "pure_python": [
+      "packaging", "setuptools", "wheel", "pip",
+      "requests", "urllib3", "certifi", "charset-normalizer",
+      "idna", "httpx", "aiohttp", "websockets",
+      "pyyaml", "tomli", "orjson", "msgpack",
+      "protobuf", "lxml", "beautifulsoup4",
+      "cryptography", "lz4", "zstandard", "regex",
+      "psutil", "joblib", "tqdm", "rich", "click",
+      "typer", "jinja2", "jsonschema", "pydantic"
+    ],
+    "native_scientific": [
+      "numpy", "pandas", "scipy", "sympy", "mpmath",
+      "matplotlib", "networkx", "joblib"
+    ],
+    "native_image": [
+      "pillow", "opencv-python-headless", "scikit-image",
+      "imageio", "tifffile", "pycocotools"
+    ],
+    "native_ml": [
+      "scikit-learn", "onnx", "onnxruntime",
+      "tokenizers", "safetensors", "sentencepiece",
+      "tflite-runtime", "h5py"
+    ],
+    "native_build_tools": [
+      "cython", "cffi"
+    ],
+    "android_limited_or_unsupported": [
+      "uvloop", "numba", "torch",
+      "_curses", "_tkinter", "readline"
+    ]
+  },
+  "notes": [
+    "Android ARM64 Python 3.13 built with NDK r28c (API 28)",
+    "_curses, _tkinter, readline missing - optional, not critical",
+    "uvloop, numba, torch require investigation before build attempt",
+    "QEMU not available on host - device testing required for native extensions",
+    "pip bootstrap required (ensurepip skipped during cross-build)"
+  ]
+}

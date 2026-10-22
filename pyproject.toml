@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MobileStudio-AndroidPython"
+version = "0.1.0"
+description = "Android ARM64 Python 3.13 package ecosystem for MobileStudio"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "MobileStudio-AndroidIDE"},
+]
+keywords = ["android", "arm64", "python", "pip", "wheel", "ndk"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: Android",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: System :: Installation/Setup",
+]
+
+[project.urls]
+Homepage = "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython"
+Repository = "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["build*", "dist*", "recipes*", "compatibility*", "scripts*", "tools*", "client*", "docs*", "cpython-*", "AndroidPython*"]

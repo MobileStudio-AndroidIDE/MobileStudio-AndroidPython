@@ -1,0 +1,25 @@
+# Build artifacts
+dist/
+build-work/
+*.egg-info/
+*.whl
+__pycache__/
+*.pyc
+
+# Android Python runtime (large binary)
+AndroidPython/
+
+# CPython source (large)
+cpython-3.13/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+cpython-3.13/
+cpython-3.13*
+cpython-3.13*.tar.*

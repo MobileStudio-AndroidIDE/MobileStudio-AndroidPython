@@ -1,0 +1,313 @@
+{
+  "schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/package-status-v1.json",
+  "python_version": "3.13.0",
+  "android_abi": "arm64-v8a",
+  "generated": "2026-10-22T22:40:00Z",
+  "packages": {
+    "pip": {
+      "version": "24.0",
+      "type": "pure-python",
+      "status": "pending",
+      "test": "python3.13 -m pip --version"
+    },
+    "packaging": {
+      "version": "24.1",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "setuptools": {
+      "version": "75.6.0",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "wheel": {
+      "version": "0.45.1",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "requests": {
+      "version": "2.32.3",
+      "type": "pure-python",
+      "status": "pending",
+      "dependencies": ["urllib3", "certifi", "charset-normalizer", "idna"]
+    },
+    "pyyaml": {
+      "version": "6.0.2",
+      "type": "native",
+      "status": "pending",
+      "note": "C extension available but pure Python fallback works"
+    },
+    "pillow": {
+      "version": "10.4.0",
+      "type": "native",
+      "status": "pending",
+      "test": "PIL.Image.new"
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "type": "native",
+      "status": "pending",
+      "test": "numpy.arange(5).sum()==10"
+    },
+    "scipy": {
+      "version": "1.13.1",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy"]
+    },
+    "pandas": {
+      "version": "2.2.2",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy"]
+    },
+    "opencv-python-headless": {
+      "version": "4.10.0.84",
+      "type": "native",
+      "status": "pending",
+      "test": "cv2.cvtColor + cv2.__version__"
+    },
+    "sympy": {
+      "version": "1.13",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "scikit-learn": {
+      "version": "1.5.2",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy"]
+    },
+    "matplotlib": {
+      "version": "3.9.0",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy", "pillow"]
+    },
+    "cryptography": {
+      "version": "43.0.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "httpx": {
+      "version": "0.27.0",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "aiohttp": {
+      "version": "3.9.5",
+      "type": "native",
+      "status": "pending"
+    },
+    "lxml": {
+      "version": "5.2.2",
+      "type": "native",
+      "status": "pending"
+    },
+    "protobuf": {
+      "version": "5.27.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "beautifulsoup4": {
+      "version": "4.12.3",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "tomli": {
+      "version": "2.0.1",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "orjson": {
+      "version": "3.10.5",
+      "type": "native",
+      "status": "pending"
+    },
+    "msgpack": {
+      "version": "1.0.8",
+      "type": "native",
+      "status": "pending"
+    },
+    "tzlocal": {
+      "version": "5.2",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "charset-normalizer": {
+      "version": "3.4.0",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "certifi": {
+      "version": "2024.8.30",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "idna": {
+      "version": "3.10",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "urllib3": {
+      "version": "2.2.3",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "websockets": {
+      "version": "14.1",
+      "type": "native",
+      "status": "pending"
+    },
+    "cffi": {
+      "version": "1.16.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "lz4": {
+      "version": "4.4.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "zstandard": {
+      "version": "0.23.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "regex": {
+      "version": "2024.7.25",
+      "type": "native",
+      "status": "pending"
+    },
+    "psutil": {
+      "version": "6.0.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "joblib": {
+      "version": "1.4.2",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "tqdm": {
+      "version": "4.66.4",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "rich": {
+      "version": "13.7.1",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "click": {
+      "version": "8.1.7",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "typer": {
+      "version": "0.12.3",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "jinja2": {
+      "version": "3.1.4",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "jsonschema": {
+      "version": "4.21.1",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "pydantic": {
+      "version": "2.9.2",
+      "type": "native",
+      "status": "pending"
+    },
+    "scikit-image": {
+      "version": "0.24.0",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy"]
+    },
+    "imageio": {
+      "version": "2.35.2",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "tifffile": {
+      "version": "2024.7.11",
+      "type": "pure-python",
+      "status": "pending"
+    },
+    "pycocotools": {
+      "version": "2.0.6",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy"]
+    },
+    "onnx": {
+      "version": "1.16.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "onnxruntime": {
+      "version": "1.18.0",
+      "type": "native",
+      "status": "pending",
+      "note": "Investigate Android support"
+    },
+    "tokenizers": {
+      "version": "0.19.1",
+      "type": "native",
+      "status": "pending"
+    },
+    "safetensors": {
+      "version": "0.4.3",
+      "type": "native",
+      "status": "pending"
+    },
+    "sentencepiece": {
+      "version": "0.2.0",
+      "type": "native",
+      "status": "pending"
+    },
+    "tflite-runtime": {
+      "version": "2.16.0",
+      "type": "native",
+      "status": "pending",
+      "note": "Google official Android runtime"
+    },
+    "h5py": {
+      "version": "3.11.0",
+      "type": "native",
+      "status": "pending",
+      "depends": ["numpy"]
+    },
+    "uvloop": {
+      "version": "0.19.0",
+      "type": "native",
+      "status": "unsupported",
+      "note": "Requires libuv, Android support limited"
+    },
+    "numba": {
+      "version": "0.60.0",
+      "type": "native",
+      "status": "unsupported",
+      "note": "LLVM-based, Android ARM64 not officially supported"
+    },
+    "torch": {
+      "version": "2.5.0",
+      "type": "native",
+      "status": "unsupported",
+      "note": "Investigate PyTorch Mobile for Android"
+    }
+  },
+  "summary": {
+    "total": 56,
+    "pure_python": 31,
+    "native": 25,
+    "unsupported": 3,
+    "pending": 53
+  }
+}

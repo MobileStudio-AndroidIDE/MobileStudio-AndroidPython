@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/recipe-v1.json",
+  "package": {
+    "name": "pip",
+    "version": "24.0",
+    "type": "pure-python",
+    "category": "build-tools",
+    "description": "Python package installer",
+    "homepage": "https://pip.pypa.io",
+    "license": "MIT"
+  },
+  "source": {
+    "url": "https://files.pythonhosted.org/packages/source/p/pip/pip-24.0.tar.gz",
+    "sha256": "d64757748f56f7bf2f691bce0fef9273a6d8d3d2663a3646e18e73dc360f55fb5d"
+  },
+  "build": {
+    "system": "pip_bootstrap",
+    "host_python": "${ANDROID_PYTHON}/bin/python3.13",
+    "android_abi": "arm64-v8a",
+    "android_api": 28
+  },
+  "dependencies": [],
+  "test": {
+    "import": "pip",
+    "command": "python3.13 -m pip --version",
+    "min_android_api": 28
+  },
+  "artifacts": {
+    "wheel_pattern": "pip-24.0-py3-none-any.whl"
+  }
+}

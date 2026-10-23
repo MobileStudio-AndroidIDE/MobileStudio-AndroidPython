@@ -27,8 +27,8 @@ def _ms_pip_bootstrap() -> None:
     prefix = sys.prefix
     conf = os.path.join(prefix, "pip.conf")
     index = (
-        "https://raw.githubusercontent.com/MobileStudio-AndroidIDE/"
-        "MobileStudio-AndroidPython/main/simple/"
+        "https://mobilestudio-androidide.github.io/"
+        "MobileStudio-AndroidPython/simple/"
     )
     header = "# managed-by: mobilestudio-pip-bootstrap\n"
     body = (
@@ -37,13 +37,18 @@ def _ms_pip_bootstrap() -> None:
         "extra-index-url = https://pypi.org/simple\n"
         f"cert = {ca}\n"
         f"cache-dir = {os.path.join(os.path.dirname(prefix), 'pip-cache')}\n"
+        # no compiler on-device: never attempt sdists, wheels only. This makes
+        # pip fall back to our (older) release wheel instead of trying to
+        # build a newer PyPI sdist.
+        "only-binary = :all:\n"
     )
     try:
         content = ""
         if os.path.exists(conf):
             with open(conf, "r", encoding="utf-8") as fh:
                 content = fh.read()
-        if header not in content:  # never clobber a user-managed config
+        if (header not in content or "only-binary" not in content
+                or index not in content):  # upgrade stale confs
             with open(conf, "w", encoding="utf-8") as fh:
                 fh.write(header + body)
         os.environ.setdefault("PIP_CONFIG_FILE", conf)

@@ -490,8 +490,8 @@
       "package": "numpy",
       "version": "2.5.4",
       "filename": "numpy-2.5.4-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "04bdb53417c0f0679e21b2feb39d3ea0fe253991d5c7716bd4ce5af3673f23c1",
-      "size": 5868095,
+      "sha256": "b0c5fd3de372cc0c25dab8cda4973fdc59a0ee9d087c3f9730855b45400ca78b",
+      "size": 5868137,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/numpy-2.5.4-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
@@ -738,16 +738,16 @@
       "package": "scikit-learn",
       "version": "1.9.1",
       "filename": "scikit_learn-1.9.1-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "97df345a3f3472cf12752b775bff7c761aa5a90488d24e4244fef8b516dc0f15",
-      "size": 8729280,
+      "sha256": "a058c586221ce8700b4eb9aa648e19c1d91af124fd85885af1d46741f27103ae",
+      "size": 8729298,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/scikit_learn-1.9.1-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "scipy",
       "version": "1.18.1",
       "filename": "scipy-1.18.1-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "481291d3c8d0fd724f6284f1b84a1c87cd918c46fa40ce16625f8201aaa45ac6",
-      "size": 22170239,
+      "sha256": "1db57e0d7398e75af751d516428303e75da50a7cd0d7bd93822ff06ecf032bb5",
+      "size": 22170270,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/scipy-1.18.1-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {

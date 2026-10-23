@@ -455,6 +455,14 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/numpy-2.5.4-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
+      "package": "onnx",
+      "version": "1.23.2",
+      "filename": "onnx-1.23.2-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "efb2146365891a3544d9589d64f71be78ab93717eea31203a8e969296e2af712",
+      "size": 8823601,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/onnx-1.23.2-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
       "package": "opencv-python-headless",
       "version": "4.11.0",
       "filename": "opencv_python_headless-4.11.0-cp313-cp313-android_28_arm64_v8a.whl",
@@ -677,6 +685,14 @@
       "sha256": "39c9976542c0815adcc690b09b2c03281085e44a5b12a1b9f281058eeb511db4",
       "size": 12271011,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/scikit_image-0.26.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.9.1",
+      "filename": "scikit_learn-1.9.1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "97df345a3f3472cf12752b775bff7c761aa5a90488d24e4244fef8b516dc0f15",
+      "size": 8729280,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/scikit_learn-1.9.1-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "scipy",

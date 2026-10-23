@@ -37,9 +37,9 @@ BLOCKED = {
 }
 
 PENDING = {
-    "onnxruntime": "large C++ build in progress",
-    "tflite-runtime": "Bazel build planned",
-    "numba": "LLVM (llvmlite) cross-build planned",
+    "onnxruntime": "large C++ build (onnx+protobuf now available as prerequisites)",
+    "tflite-runtime": "requires Bazel + TensorFlow monorepo build",
+    "numba": "requires LLVM cross-build for llvmlite",
 }
 
 CATEGORY = {

@@ -56,14 +56,17 @@ Chaquopy wheel(`android_21`/`android_24` 태그)은 본 런타임의
 
 | 패키지 | 이유 |
 |--------|------|
-| scipy | Fortran(flang) 툴체인 필요 — NDK에 Fortran 컴파일러 없음 |
-| scikit-learn | scipy 런타임 의존 |
-| scikit-image | scipy 런타임 의존 |
-| numba | LLVM(llvmlite) 크로스빌드 필요 |
-| onnx / onnxruntime | 대형 C++/Bazel 빌드, protobuf C++ 필요 |
-| tflite-runtime | Bazel 빌드 필요 |
-| opencv-python-headless | CMake 대형 빌드 (추후 지원 예정) |
-| sentencepiece | SWIG 바인딩 + CMake 빌드 필요 (추후 지원 예정) |
+| onnxruntime | 대형 C++ 빌드 (onnx·protobuf 31은 이미 포팅됨, 전제 준비 완료) |
+| tflite-runtime | Bazel + TensorFlow 모노레포 빌드 필요 |
+| numba | LLVM 크로스빌드(llvmlite) 필요 |
 
 protobuf는 순수 Python 구현(`PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python`)으로
-동작합니다.
+동작하며, onnx는 NDK C++ protobuf 31.1로 직접 빌드되어 있습니다.
+
+### numpy 2 생태계
+
+scipy/sklearn/skimage/opencv/h5py/ml_dtypes/onnx는 numpy 2.x 헤더로 빌드되어
+`pip install` 시 numpy 2.5.4(인덱스 최신)와 함께 설치됩니다. Chaquopy 기반
+numpy 1.26.2 휠도 병행 제공되지만, 위 패키지들과 함께 쓰려면 numpy 2.5.4를
+유지하세요. pandas 2.3.3 / matplotlib 3.8.4 / contourpy 1.4.0 / pycocotools
+2.0.11 은 numpy 2용으로 재빌드된 버전입니다.

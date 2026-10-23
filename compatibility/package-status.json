@@ -231,8 +231,10 @@
     },
     "onnxruntime": {
       "category": "D",
-      "status": "pending",
-      "note": "large C++ build (onnx+protobuf now available as prerequisites)"
+      "status": "available",
+      "version": "1.31.0",
+      "wheel": "onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "c14c4ef23babac641312e004bd8bd8ecfb2e202057a82c408dafcb36bb580cb3"
     },
     "tokenizers": {
       "category": "D",
@@ -410,8 +412,8 @@
   },
   "summary": {
     "requested_unique": 58,
-    "available": 56,
+    "available": 57,
     "blocked": 0,
-    "pending": 2
+    "pending": 1
   }
 }

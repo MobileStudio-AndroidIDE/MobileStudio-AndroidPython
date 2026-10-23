@@ -191,6 +191,14 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/click_default_group-1.2.4-py2.py3-none-any.whl"
     },
     {
+      "package": "coloredlogs",
+      "version": "15.0.1",
+      "filename": "coloredlogs-15.0.1-py2.py3-none-any.whl",
+      "sha256": "612ee75c546f53e92e70049c9dbfcc18c935a2b9a53b66085ce9ef6a6e5c0934",
+      "size": 46018,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/coloredlogs-15.0.1-py2.py3-none-any.whl"
+    },
+    {
       "package": "contourpy",
       "version": "1.0.7",
       "filename": "contourpy-1.0.7-0-cp313-cp313-android_28_arm64_v8a.whl",
@@ -229,6 +237,14 @@
       "sha256": "9b24b5c8cd536946b62086fcafee6d5509d3f549f72d553d2336af87ffbe0da1",
       "size": 1349151,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/cython-3.3.0-py3-none-any.whl"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "25.12.19",
+      "filename": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+      "size": 26661,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/flatbuffers-25.12.19-py2.py3-none-any.whl"
     },
     {
       "package": "fonttools",
@@ -285,6 +301,14 @@
       "sha256": "1897caf88ce7f97fe0110603d8f66ac264e3ba6accdf30cd66cc0fed5282ad25",
       "size": 436575,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/huggingface_hub-0.25.2-py3-none-any.whl"
+    },
+    {
+      "package": "humanfriendly",
+      "version": "10.0",
+      "filename": "humanfriendly-10.0-py2.py3-none-any.whl",
+      "sha256": "1697e1a8a8f550fd43c2865cd84542fc175a61dcb779b6fee18cf6b6ccba1477",
+      "size": 86794,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/humanfriendly-10.0-py2.py3-none-any.whl"
     },
     {
       "package": "idna",
@@ -477,6 +501,14 @@
       "sha256": "efb2146365891a3544d9589d64f71be78ab93717eea31203a8e969296e2af712",
       "size": 8823601,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/onnx-1.23.2-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "onnxruntime",
+      "version": "1.31.0",
+      "filename": "onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "c14c4ef23babac641312e004bd8bd8ecfb2e202057a82c408dafcb36bb580cb3",
+      "size": 10352710,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "opencv-python-headless",

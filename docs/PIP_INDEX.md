@@ -5,6 +5,27 @@
 
 ## 설치 방법 (기기)
 
+### 자동 설정 (권장) — `pip install <pkg>` 만으로 내 릴리즈에서 다운로드
+
+기기를 연결한 뒤 호스트에서 한 번 실행:
+
+```bash
+bash scripts/device_setup_pip.sh
+```
+
+이 한 번의 설정으로:
+- `$PYDIR/pip.conf` 생성 (index-url = 본 인덱스, PyPI 폴백, CA 인증서 자동)
+- `$PYDIR/bin/pip` 래퍼 생성 (`PIP_CONFIG_FILE` 자동 지정)
+
+이후 기기에서는 그냥:
+
+```bash
+pip install opencv-python-headless   # GitHub Release에서 자동 다운로드
+pip install scipy numba onnxruntime tflite-runtime
+```
+
+### 수동 설정 (일회성)
+
 ```bash
 PY=/data/local/tmp/python-android
 export LD_LIBRARY_PATH="$PY/lib:$PY/lib/python3.13/site-packages/chaquopy/lib"
@@ -16,8 +37,9 @@ $PY/bin/python3.13 -m pip install \
   numpy pandas matplotlib
 ```
 
+- 패키지 이름 주의: OpenCV는 `opencv-python-headless` 입니다 (`opencv` 아님).
 - `--index-url`: PEP 503 simple index (`simple/` 디렉터리, raw.githubusercontent로 서빙)
-- wheel 파일은 GitHub Release `android-arm64-py313-v1` 에셋에서 다운로드됩니다.
+- wheel 바이너리 자체는 GitHub Release `android-arm64-py313-v1` 에셋에서 다운로드됩니다.
 - 네이티브 패키지(numpy 등)가 OpenBLAS/libcxx 등을 필요로 하므로
   `LD_LIBRARY_PATH`에 `site-packages/chaquopy/lib`를 포함해야 합니다.
 

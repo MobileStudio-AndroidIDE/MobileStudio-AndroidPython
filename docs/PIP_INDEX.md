@@ -54,14 +54,13 @@ Chaquopy wheel(`android_21`/`android_24` 태그)은 본 런타임의
 
 ## 아직 포팅되지 않은 패키지
 
-| 패키지 | 이유 |
-|--------|------|
-| onnxruntime | 대형 C++ 빌드 (onnx·protobuf 31은 이미 포팅됨, 전제 준비 완료) |
-| tflite-runtime | Bazel + TensorFlow 모노레포 빌드 필요 |
-| numba | LLVM 크로스빌드(llvmlite) 필요 |
+없음 — 요청 60개(중복 제외 58종) 전체 제공 ✅
 
-protobuf는 순수 Python 구현(`PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python`)으로
-동작하며, onnx는 NDK C++ protobuf 31.1로 직접 빌드되어 있습니다.
+비고:
+- scipy 1.18은 Fortran-free 경로로 빌드되어 `scipy.odr` 모듈만 제외됩니다.
+- onnxruntime은 CPU Execution Provider이며 XNNPACK delegate가 포함되어 있습니다.
+- tflite-runtime은 TF 2.20 CMake 라우트로 빌드되었습니다(Bazel 미사용).
+- numba/llvmlite는 LLVM 22.1.3 정적 크로스빌드 기반입니다.
 
 ### numpy 2 생태계
 

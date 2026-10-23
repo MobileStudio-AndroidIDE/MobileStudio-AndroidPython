@@ -351,6 +351,14 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/lazy_loader-0.6-py3-none-any.whl"
     },
     {
+      "package": "llvmlite",
+      "version": "0.50.0",
+      "filename": "llvmlite-0.50.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "90cef58ae7678dd1b927dc867b6b5a333bf79ca0ff6b74c05906b9e8237c4d10",
+      "size": 242610410,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/llvmlite-0.50.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
       "package": "lxml",
       "version": "5.3.0",
       "filename": "lxml-5.3.0-0-cp313-cp313-android_28_arm64_v8a.whl",
@@ -437,6 +445,14 @@
       "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
       "size": 2142205,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/networkx-3.7-py3-none-any.whl"
+    },
+    {
+      "package": "numba",
+      "version": "0.68.0",
+      "filename": "numba-0.68.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "37c2d47456b3f0f727633b5b13d7a4d044ba64adbe0dad9d77e055a9f3ec7900",
+      "size": 2911973,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/numba-0.68.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "numpy",

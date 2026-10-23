@@ -346,8 +346,10 @@
     },
     "numba": {
       "category": "F",
-      "status": "pending",
-      "note": "requires LLVM cross-build for llvmlite"
+      "status": "available",
+      "version": "0.68.0",
+      "wheel": "numba-0.68.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "37c2d47456b3f0f727633b5b13d7a4d044ba64adbe0dad9d77e055a9f3ec7900"
     },
     "joblib": {
       "category": "F",
@@ -408,8 +410,8 @@
   },
   "summary": {
     "requested_unique": 58,
-    "available": 55,
+    "available": 56,
     "blocked": 0,
-    "pending": 3
+    "pending": 2
   }
 }

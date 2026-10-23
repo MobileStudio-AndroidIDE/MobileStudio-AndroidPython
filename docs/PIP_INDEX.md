@@ -33,7 +33,7 @@ export LD_LIBRARY_PATH="$PY/lib:$PY/lib/python3.13/site-packages/chaquopy/lib"
 # 인덱스 지정 (GitHub raw + Release asset)
 $PY/bin/python3.13 -m pip install \
   --cert "$PY/lib/python3.13/site-packages/certifi/cacert.pem" \
-  --index-url https://raw.githubusercontent.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/main/simple/ \
+  --index-url https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/simple/ \
   numpy pandas matplotlib
 ```
 

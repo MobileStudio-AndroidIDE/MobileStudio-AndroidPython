@@ -63,3 +63,21 @@ try:
     import ms_ext_hook  # noqa: F401
 except Exception:
     pass
+
+
+def _ms_ca_bootstrap() -> None:
+    """Point TLS stacks at the bundled certifi CA store (Android has no
+    /etc/ssl). Affects ssl.create_default_context() (urllib, http.client),
+    requests, and httpx."""
+    try:
+        import certifi
+
+        ca = certifi.where()
+        os.environ.setdefault("SSL_CERT_FILE", ca)
+        os.environ.setdefault("REQUESTS_CA_BUNDLE", ca)
+        os.environ.setdefault("CURL_CA_BUNDLE", ca)
+    except Exception:
+        pass
+
+
+_ms_ca_bootstrap()

@@ -34,7 +34,7 @@ import java.util.zip.ZipInputStream;
 public final class PyBridge {
 
     public static final String BUNDLE_ASSET = "mobilestudio-python.zip";
-    public static final String BUNDLE_VERSION = "2026-10-23.2"; // bump to re-extract
+    public static final String BUNDLE_VERSION = "2026-10-23.3"; // bump to re-extract
 
     private static volatile boolean sReady;
 

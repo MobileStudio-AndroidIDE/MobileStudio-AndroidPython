@@ -118,6 +118,15 @@ def main() -> None:
     shutil.copy2(RUNTIME / "lib" / "libpython3.13.so", jni / "libpython3.13.so")
     shutil.copy2(RUNTIME / "bin" / "python3.13", jni / "libpyexec.so")
 
+    # OpenSSL runtime for the _ssl/_hashlib modules
+    prefix = ROOT / "cpython-3.13/cross-build/aarch64-linux-android/prefix"
+    for name in ("libssl_python.so", "libcrypto_python.so"):
+        src = prefix / "lib" / name
+        if src.exists():
+            shutil.copy2(src, jni / name)
+            strip_file(jni / name)
+            print(f"[lib ] {name} <- {src}")
+
     src_std = RUNTIME / "lib" / "python3.13"
     dst_std = staging / "lib" / "python3.13"
     skip_dirs = {"lib-dynload", "site-packages", "__pycache__", "test",

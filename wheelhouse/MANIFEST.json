@@ -1,0 +1,810 @@
+{
+  "python": "3.13",
+  "abi": "arm64-v8a",
+  "android_api": 28,
+  "repository": "MobileStudio-AndroidIDE/MobileStudio-AndroidPython",
+  "release": "android-arm64-py313-v1",
+  "base_url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1",
+  "wheels": [
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "filename": "aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "sha256": "9243213661e29250eb41368e5daa826fc017156c3b8a11440826b2e3ed376472",
+      "size": 15038,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/aiohappyeyeballs-2.7.1-py3-none-any.whl"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.10.10",
+      "filename": "aiohttp-3.10.10-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "e31f52c657095663759809cf17ac7a87b458ef5cfd12134af3fa2946da077d83",
+      "size": 373073,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/aiohttp-3.10.10-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.4.0",
+      "filename": "aiosignal-1.4.0-py3-none-any.whl",
+      "sha256": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e",
+      "size": 7490,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/aiosignal-1.4.0-py3-none-any.whl"
+    },
+    {
+      "package": "annotated-doc",
+      "version": "0.0.5",
+      "filename": "annotated_doc-0.0.5-py3-none-any.whl",
+      "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+      "size": 5302,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/annotated_doc-0.0.5-py3-none-any.whl"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.8.0",
+      "filename": "annotated_types-0.8.0-py3-none-any.whl",
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+      "size": 13427,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/annotated_types-0.8.0-py3-none-any.whl"
+    },
+    {
+      "package": "anyio",
+      "version": "4.15.1",
+      "filename": "anyio-4.15.1-py3-none-any.whl",
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "size": 132079,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/anyio-4.15.1-py3-none-any.whl"
+    },
+    {
+      "package": "attrs",
+      "version": "26.1.0",
+      "filename": "attrs-26.1.0-py3-none-any.whl",
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "size": 67548,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/attrs-26.1.0-py3-none-any.whl"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.15.0",
+      "filename": "beautifulsoup4-4.15.0-py3-none-any.whl",
+      "sha256": "d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9",
+      "size": 109924,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/beautifulsoup4-4.15.0-py3-none-any.whl"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.10.19",
+      "filename": "certifi-2026.10.19-py3-none-any.whl",
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+      "size": 136464,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/certifi-2026.10.19-py3-none-any.whl"
+    },
+    {
+      "package": "cffi",
+      "version": "1.17.1",
+      "filename": "cffi-1.17.1-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "22c76d5184b5cfe821df6576d0d07c855fe3cb8b07a14db184a9e758b0e2eeee",
+      "size": 177180,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/cffi-1.17.1-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-freetype",
+      "version": "2.9.1",
+      "filename": "chaquopy_freetype-2.9.1-2-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "6fdc549f74bdaf56a57ae71f0c949db32404eeb133ddeb4ca706bd8c3ac50eae",
+      "size": 533848,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_freetype-2.9.1-2-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libcxx",
+      "version": "180000",
+      "filename": "chaquopy_libcxx-180000-0-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "4f6fd7d27b394e66a2f4f386bba7b48f8c0d3751c024cb851fd7a49e60468493",
+      "size": 413238,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libcxx-180000-0-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libffi",
+      "version": "3.3",
+      "filename": "chaquopy_libffi-3.3-3-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "5590630b64519f2cef07d84caaf5eac3e5ca92a14137bd68084b25cb108f6b0c",
+      "size": 33495,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libffi-3.3-3-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libgfortran",
+      "version": "4.9",
+      "filename": "chaquopy_libgfortran-4.9-0-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "4f87fd49f42399af6ae1a6d8b46ca01be46ab5ba12fcce66b99e48f271bc5710",
+      "size": 495679,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libgfortran-4.9-0-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libjpeg",
+      "version": "1.5.3",
+      "filename": "chaquopy_libjpeg-1.5.3-1-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "6443fe3a4df60ea054c5481044c06cc263db550fecfab76e6248d8762f213a79",
+      "size": 176244,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libjpeg-1.5.3-1-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libpng",
+      "version": "1.6.34",
+      "filename": "chaquopy_libpng-1.6.34-1-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "0bc4ebb303a8292acb449a6deed710952d8a0bebef7b4c355907b9207b5d7101",
+      "size": 175793,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libpng-1.6.34-1-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libxml2",
+      "version": "2.9.8",
+      "filename": "chaquopy_libxml2-2.9.8-2-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "d65adfe0de5b67f5fc5a535a185d7aaa4fa79268b794753761e47bdf28f63994",
+      "size": 773410,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libxml2-2.9.8-2-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libxslt",
+      "version": "1.1.32",
+      "filename": "chaquopy_libxslt-1.1.32-2-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "304218302501a640ead08a20087824b3216b7fe9f577068ec9f342884f2e6705",
+      "size": 178117,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libxslt-1.1.32-2-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-libyaml",
+      "version": "0.2.5",
+      "filename": "chaquopy_libyaml-0.2.5-0-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "6109d5c7110fce0c21d24a357cff90cc1a7054b68c41186ce82f5e8938d31edb",
+      "size": 58015,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_libyaml-0.2.5-0-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "chaquopy-openblas",
+      "version": "0.2.20",
+      "filename": "chaquopy_openblas-0.2.20-5-py3-none-android_28_arm64_v8a.whl",
+      "sha256": "6179ddf238b3119ab3ceb9b82521144dddf465faf0978eeb49a80cee0fe673e6",
+      "size": 4342774,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/chaquopy_openblas-0.2.20-5-py3-none-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.5.2",
+      "filename": "charset_normalizer-3.5.2-py3-none-any.whl",
+      "sha256": "b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685",
+      "size": 68872,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/charset_normalizer-3.5.2-py3-none-any.whl"
+    },
+    {
+      "package": "click",
+      "version": "8.5.0",
+      "filename": "click-8.5.0-py3-none-any.whl",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "size": 125251,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/click-8.5.0-py3-none-any.whl"
+    },
+    {
+      "package": "click-default-group",
+      "version": "1.2.4",
+      "filename": "click_default_group-1.2.4-py2.py3-none-any.whl",
+      "sha256": "9b60486923720e7fc61731bdb32b617039aba820e22e1c88766b1125592eaa5f",
+      "size": 4123,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/click_default_group-1.2.4-py2.py3-none-any.whl"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.0.7",
+      "filename": "contourpy-1.0.7-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "e2bf5ecaa4fa4688e6ae289ae35cf91ca94223091ecf575dc68ad59ecf557d56",
+      "size": 390305,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/contourpy-1.0.7-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "cryptography",
+      "version": "42.0.8",
+      "filename": "cryptography-42.0.8-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "ebc9dd181c03b66bcc442f201649a459b309625f10b72fd4d3f795d030571a9f",
+      "size": 1110895,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/cryptography-42.0.8-1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "filename": "cycler-0.12.1-py3-none-any.whl",
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+      "size": 8321,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/cycler-0.12.1-py3-none-any.whl"
+    },
+    {
+      "package": "cython",
+      "version": "3.3.0",
+      "filename": "cython-3.3.0-py3-none-any.whl",
+      "sha256": "9b24b5c8cd536946b62086fcafee6d5509d3f549f72d553d2336af87ffbe0da1",
+      "size": 1349151,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/cython-3.3.0-py3-none-any.whl"
+    },
+    {
+      "package": "fonttools",
+      "version": "4.67.0",
+      "filename": "fonttools-4.67.0-py3-none-any.whl",
+      "sha256": "4304f03ed7f4ba000a8dcc941ad854bfa52e2f3b6112b8f099b6f431cf98e701",
+      "size": 1213142,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/fonttools-4.67.0-py3-none-any.whl"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.4.1",
+      "filename": "frozenlist-1.4.1-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "bc07b3c9e3ef8460d0e6d343b2d46ede8aa1d58c5f9e70e2e41ef8479155ca13",
+      "size": 47128,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/frozenlist-1.4.1-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "filename": "h11-0.16.0-py3-none-any.whl",
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "size": 37515,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/h11-0.16.0-py3-none-any.whl"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "filename": "httpcore-1.0.9-py3-none-any.whl",
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "size": 78784,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/httpcore-1.0.9-py3-none-any.whl"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "filename": "httpx-0.28.1-py3-none-any.whl",
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "size": 73517,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/httpx-0.28.1-py3-none-any.whl"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.25.2",
+      "filename": "huggingface_hub-0.25.2-py3-none-any.whl",
+      "sha256": "1897caf88ce7f97fe0110603d8f66ac264e3ba6accdf30cd66cc0fed5282ad25",
+      "size": 436575,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/huggingface_hub-0.25.2-py3-none-any.whl"
+    },
+    {
+      "package": "idna",
+      "version": "3.20",
+      "filename": "idna-3.20-py3-none-any.whl",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "size": 69583,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/idna-3.20-py3-none-any.whl"
+    },
+    {
+      "package": "imageio",
+      "version": "2.38.1",
+      "filename": "imageio-2.38.1-py3-none-any.whl",
+      "sha256": "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9",
+      "size": 328389,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/imageio-2.38.1-py3-none-any.whl"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "filename": "jinja2-3.1.6-py3-none-any.whl",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "size": 134899,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/jinja2-3.1.6-py3-none-any.whl"
+    },
+    {
+      "package": "joblib",
+      "version": "1.6.0",
+      "filename": "joblib-1.6.0-py3-none-any.whl",
+      "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba",
+      "size": 306115,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/joblib-1.6.0-py3-none-any.whl"
+    },
+    {
+      "package": "jsonschema",
+      "version": "4.26.0",
+      "filename": "jsonschema-4.26.0-py3-none-any.whl",
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "size": 90630,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/jsonschema-4.26.0-py3-none-any.whl"
+    },
+    {
+      "package": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "filename": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "size": 18437,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/jsonschema_specifications-2025.9.1-py3-none-any.whl"
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.4.7",
+      "filename": "kiwisolver-1.4.7-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "cfe5e2e68dc37590781e6a28d889eab64831d4e89f66905b6bfe13a50c582520",
+      "size": 133253,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/kiwisolver-1.4.7-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "lazy-loader",
+      "version": "0.6",
+      "filename": "lazy_loader-0.6-py3-none-any.whl",
+      "sha256": "77253be3391b06124a0e16105bd663b6c54470af1a9ca8e1cf026f38d58ed056",
+      "size": 8791,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/lazy_loader-0.6-py3-none-any.whl"
+    },
+    {
+      "package": "lxml",
+      "version": "5.3.0",
+      "filename": "lxml-5.3.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "1a90ee9b8795eb5b5b188be1b8677e7043e15a070d3ae6a6a85b166a1babea5d",
+      "size": 1433580,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/lxml-5.3.0-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "lz4",
+      "version": "4.3.3",
+      "filename": "lz4-4.3.3-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "f71c7d08be3a085d6d2603842d056cd436f21dcc9b24b16044fa5ab2df358dda",
+      "size": 174757,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/lz4-4.3.3-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "markdown-it-py",
+      "version": "4.2.0",
+      "filename": "markdown_it_py-4.2.0-py3-none-any.whl",
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+      "size": 91687,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/markdown_it_py-4.2.0-py3-none-any.whl"
+    },
+    {
+      "package": "markupsafe",
+      "version": "3.0.3",
+      "filename": "markupsafe-3.0.3-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "3814943c50d61587871aeb98ad7c59bc8334273f2b10400b6ebbb0b5498a3b13",
+      "size": 13436,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/markupsafe-3.0.3-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.8.4",
+      "filename": "matplotlib-3.8.4-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "bc9cdfde0db2c3a66e5fa62ac359b1d0b18439373f8d34a5fdda057dbdbb8913",
+      "size": 7465512,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/matplotlib-3.8.4-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "mdurl",
+      "version": "0.1.2",
+      "filename": "mdurl-0.1.2-py3-none-any.whl",
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+      "size": 9979,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/mdurl-0.1.2-py3-none-any.whl"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.4.1",
+      "filename": "mpmath-1.4.1-py3-none-any.whl",
+      "sha256": "dc4f0ea2304480d4a9a48a94c1020571558ade522b44a6912efac63a586e140f",
+      "size": 567787,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/mpmath-1.4.1-py3-none-any.whl"
+    },
+    {
+      "package": "msgpack",
+      "version": "1.2.3",
+      "filename": "msgpack-1.2.3-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "886505a87260dd07b0c6aefbf6c02eb1086dab9a037d03246ff40d514415e28a",
+      "size": 84949,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/msgpack-1.2.3-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "multidict",
+      "version": "6.1.0",
+      "filename": "multidict-6.1.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "d5a5a13077567347cd9cbec3c7230307e1fbadaa1176522b01fe43899a47d1df",
+      "size": 27275,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/multidict-6.1.0-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "networkx",
+      "version": "3.7",
+      "filename": "networkx-3.7-py3-none-any.whl",
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+      "size": 2142205,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/networkx-3.7-py3-none-any.whl"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.2",
+      "filename": "numpy-1.26.2-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "60c27fb5018271b0479cc6972a84f70f38685a397b787921a96019ac71152f60",
+      "size": 5085707,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/numpy-1.26.2-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "orjson",
+      "version": "3.13.0",
+      "filename": "orjson-3.13.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "55164c13bad03e1c94edcc96cfe233d91dfb002d91d49cde1b981c4bbe1c9830",
+      "size": 305964,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/orjson-3.13.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "size": 129956,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/packaging-26.3-py3-none-any.whl"
+    },
+    {
+      "package": "pandas",
+      "version": "2.1.3",
+      "filename": "pandas-2.1.3-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "dd4fd48af1231b126cf200971033a43d6d9b027e0af75c72bc0ef1349432fddc",
+      "size": 11333692,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pandas-2.1.3-1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pillow",
+      "version": "11.0.0",
+      "filename": "pillow-11.0.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "ff6a9244d9e993219c6d8e7f26e174a8a0c24a769684d46f951f0ab5b8e33202",
+      "size": 582448,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pillow-11.0.0-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.2",
+      "filename": "pip-26.2.2-py3-none-any.whl",
+      "sha256": "fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70",
+      "size": 1819850,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pip-26.2.2-py3-none-any.whl"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.7.0",
+      "filename": "pluggy-1.7.0-py3-none-any.whl",
+      "sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec",
+      "size": 27082,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pluggy-1.7.0-py3-none-any.whl"
+    },
+    {
+      "package": "propcache",
+      "version": "0.5.4",
+      "filename": "propcache-0.5.4-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "225df6fa68ed5c472f72a85ea1d2170b5ba33c5ced583d80cc410670649729db",
+      "size": 44094,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/propcache-0.5.4-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "protobuf",
+      "version": "7.36.2",
+      "filename": "protobuf-7.36.2-py3-none-any.whl",
+      "sha256": "bdb3a345d48db958e6ce1f18e508beb0cc981d64f24088427549c866cd039f1e",
+      "size": 179806,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/protobuf-7.36.2-py3-none-any.whl"
+    },
+    {
+      "package": "psutil",
+      "version": "7.1.3",
+      "filename": "psutil-7.1.3-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "8c5486e60532363ed520112875750e17794bd7d5019d39d5b3de7d7e73c38f81",
+      "size": 226767,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/psutil-7.1.3-1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pycocotools",
+      "version": "2.0.8",
+      "filename": "pycocotools-2.0.8-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "aaddfeba326973f37a2ea302db468fc06ceb003827f8c7f2b2990f0c6306f609",
+      "size": 81230,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pycocotools-2.0.8-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pycparser",
+      "version": "3.12",
+      "filename": "pycparser-3.12-py3-none-any.whl",
+      "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e",
+      "size": 62600,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pycparser-3.12-py3-none-any.whl"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.14.1",
+      "filename": "pydantic-2.14.1-py3-none-any.whl",
+      "sha256": "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454",
+      "size": 488106,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pydantic-2.14.1-py3-none-any.whl"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.50.1",
+      "filename": "pydantic_core-2.50.1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "60bbbb1eb9c80ab366f73a2f33f95c2316ab49d0f8055e06b8cdb4fe496b2d8c",
+      "size": 2105665,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pydantic_core-2.50.1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pygments",
+      "version": "2.21.0",
+      "filename": "pygments-2.21.0-py3-none-any.whl",
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "size": 1250147,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pygments-2.21.0-py3-none-any.whl"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.3",
+      "filename": "pyparsing-3.3.3-py3-none-any.whl",
+      "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+      "size": 126420,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pyparsing-3.3.3-py3-none-any.whl"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "3.0.0",
+      "filename": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+      "size": 94659,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/python_dateutil-3.0.0-py2.py3-none-any.whl"
+    },
+    {
+      "package": "pytz",
+      "version": "2026.5",
+      "filename": "pytz-2026.5-py2.py3-none-any.whl",
+      "sha256": "e658af3757f9e26a9d25dd2aff38335acd92bc9104f890a894b2c1ba28311b03",
+      "size": 506342,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pytz-2026.5-py2.py3-none-any.whl"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "filename": "pyyaml-6.0.3-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "d7af5181ad5da83dbd74928cb463f6f83661c4f03363ca2e7e8c1465abe64901",
+      "size": 146124,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pyyaml-6.0.3-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "referencing",
+      "version": "0.37.0",
+      "filename": "referencing-0.37.0-py3-none-any.whl",
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "size": 26766,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/referencing-0.37.0-py3-none-any.whl"
+    },
+    {
+      "package": "regex",
+      "version": "2024.9.11",
+      "filename": "regex-2024.9.11-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "41e9755d5abc2d41633f48ba45b3159b132eed6c512386c816009cdfa11fbb85",
+      "size": 285085,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/regex-2024.9.11-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "requests",
+      "version": "2.34.2",
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "size": 73075,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/requests-2.34.2-py3-none-any.whl"
+    },
+    {
+      "package": "rich",
+      "version": "15.0.0",
+      "filename": "rich-15.0.0-py3-none-any.whl",
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+      "size": 310654,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/rich-15.0.0-py3-none-any.whl"
+    },
+    {
+      "package": "rpds-py",
+      "version": "2026.9.1",
+      "filename": "rpds_py-2026.9.1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "a262072dc0ca03aec6053f19fa0b088952a70caf0bbdac339d61677e2f817736",
+      "size": 403122,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/rpds_py-2026.9.1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.8.0",
+      "filename": "safetensors-0.8.0-cp310-abi3-android_28_arm64_v8a.whl",
+      "sha256": "6ca28bba838d3dcf9ab1d3905f62e583ed1558c3495055130527f301a975d627",
+      "size": 525835,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/safetensors-0.8.0-cp310-abi3-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.2.1",
+      "filename": "setuptools-84.2.1-py3-none-any.whl",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+      "size": 876263,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/setuptools-84.2.1-py3-none-any.whl"
+    },
+    {
+      "package": "shellingham",
+      "version": "1.5.4",
+      "filename": "shellingham-1.5.4-py2.py3-none-any.whl",
+      "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+      "size": 9755,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/shellingham-1.5.4-py2.py3-none-any.whl"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "size": 11050,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/six-1.17.0-py2.py3-none-any.whl"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "filename": "sniffio-1.3.1-py3-none-any.whl",
+      "sha256": "2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2",
+      "size": 10235,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/sniffio-1.3.1-py3-none-any.whl"
+    },
+    {
+      "package": "soupsieve",
+      "version": "3.0.4",
+      "filename": "soupsieve-3.0.4-py3-none-any.whl",
+      "sha256": "8412826614f9c632227067d0985aeb9f584bd15efc852955430e097a9fe7afbf",
+      "size": 42458,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/soupsieve-3.0.4-py3-none-any.whl"
+    },
+    {
+      "package": "sqlite-fts4",
+      "version": "1.0.3",
+      "filename": "sqlite_fts4-1.0.3-py3-none-any.whl",
+      "sha256": "0359edd8dea6fd73c848989e1e2b1f31a50fe5f9d7272299ff0e8dbaa62d035f",
+      "size": 9972,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/sqlite_fts4-1.0.3-py3-none-any.whl"
+    },
+    {
+      "package": "sqlite-utils",
+      "version": "4.2.1",
+      "filename": "sqlite_utils-4.2.1-py3-none-any.whl",
+      "sha256": "7fbaee670713b25eceba05779b844f0895efaf680d9a226fa5ba7dfe165721c5",
+      "size": 99482,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/sqlite_utils-4.2.1-py3-none-any.whl"
+    },
+    {
+      "package": "sympy",
+      "version": "1.14.0",
+      "filename": "sympy-1.14.0-py3-none-any.whl",
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "size": 6299353,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/sympy-1.14.0-py3-none-any.whl"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.10.0",
+      "filename": "tabulate-0.10.0-py3-none-any.whl",
+      "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+      "size": 39814,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tabulate-0.10.0-py3-none-any.whl"
+    },
+    {
+      "package": "threadpoolctl",
+      "version": "3.7.0",
+      "filename": "threadpoolctl-3.7.0-py3-none-any.whl",
+      "sha256": "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be",
+      "size": 26362,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/threadpoolctl-3.7.0-py3-none-any.whl"
+    },
+    {
+      "package": "tifffile",
+      "version": "2026.10.15",
+      "filename": "tifffile-2026.10.15-py3-none-any.whl",
+      "sha256": "3dcf6c56731a45c1f85c81e90dad922b0a380a2d639e77f71207e010f8ef0f7b",
+      "size": 276988,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tifffile-2026.10.15-py3-none-any.whl"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.23.3",
+      "filename": "tokenizers-0.23.3-cp310-abi3-android_28_arm64_v8a.whl",
+      "sha256": "de67b84232097f72993b30b3deb6f43e46a6b8218c7bfb42785d4428f678c58f",
+      "size": 3279934,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tokenizers-0.23.3-cp310-abi3-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "tomli",
+      "version": "2.5.0",
+      "filename": "tomli-2.5.0-py3-none-any.whl",
+      "sha256": "32a7b79ac57a2e83670ce329ccf675798bc5a2094783a63676866b70503f2e2b",
+      "size": 14765,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tomli-2.5.0-py3-none-any.whl"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.70.1",
+      "filename": "tqdm-4.70.1-py3-none-any.whl",
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "size": 80199,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tqdm-4.70.1-py3-none-any.whl"
+    },
+    {
+      "package": "typer",
+      "version": "0.27.3",
+      "filename": "typer-0.27.3-py3-none-any.whl",
+      "sha256": "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff",
+      "size": 123312,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/typer-0.27.3-py3-none-any.whl"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.16.0",
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "size": 45571,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/typing_extensions-4.16.0-py3-none-any.whl"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.4",
+      "filename": "typing_inspection-0.4.4-py3-none-any.whl",
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+      "size": 14750,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/typing_inspection-0.4.4-py3-none-any.whl"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.5",
+      "filename": "tzdata-2026.5-py2.py3-none-any.whl",
+      "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+      "size": 347996,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tzdata-2026.5-py2.py3-none-any.whl"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.8.0",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "size": 135717,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/urllib3-2.8.0-py3-none-any.whl"
+    },
+    {
+      "package": "uvloop",
+      "version": "0.23.0",
+      "filename": "uvloop-0.23.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "39177dbc12be0e90415b78630909a388156284791cd9cc1ad29a444e7cb367c9",
+      "size": 847640,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/uvloop-0.23.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "websockets",
+      "version": "17.3",
+      "filename": "websockets-17.3-py3-none-any.whl",
+      "sha256": "dc2b495a92b3971966bf102e73589f950db3ec1ca6713265355ce7771d97b199",
+      "size": 212375,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/websockets-17.3-py3-none-any.whl"
+    },
+    {
+      "package": "wheel",
+      "version": "0.48.0",
+      "filename": "wheel-0.48.0-py3-none-any.whl",
+      "sha256": "3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab",
+      "size": 33320,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/wheel-0.48.0-py3-none-any.whl"
+    },
+    {
+      "package": "yarl",
+      "version": "1.16.0",
+      "filename": "yarl-1.16.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "484256b670bf41e566b147188a5d0af9e097404c6249d80e76fd59f7e8ee1e4f",
+      "size": 87089,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/yarl-1.16.0-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "zstandard",
+      "version": "0.23.0",
+      "filename": "zstandard-0.23.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "5b88ef3c1f81db14b019c6972b6241598c20fedf3ce2391ee798470b3128ef54",
+      "size": 624118,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/zstandard-0.23.0-0-cp313-cp313-android_28_arm64_v8a.whl"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ PYDIR=/data/local/tmp/python-android
 
 adb push client/android/pip.conf "$PYDIR/pip.conf" >/dev/null
 adb push scripts/device-pip-wrapper.sh "$PYDIR/bin/pip" >/dev/null
+adb push client/android/sitecustomize.py "$PYDIR/lib/python3.13/site-packages/sitecustomize.py" >/dev/null
 adb shell "chmod +x $PYDIR/bin/pip && mkdir -p /data/local/tmp/pip-cache"
 
 echo "== pip config on device =="

@@ -105,8 +105,10 @@
     },
     "scipy": {
       "category": "B",
-      "status": "unsupported",
-      "note": "Fortran (flang) toolchain required; no NDK Fortran compiler"
+      "status": "available",
+      "version": "1.18.1",
+      "wheel": "scipy-1.18.1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "481291d3c8d0fd724f6284f1b84a1c87cd918c46fa40ce16625f8201aaa45ac6"
     },
     "sympy": {
       "category": "B",
@@ -187,8 +189,10 @@
     },
     "scikit-image": {
       "category": "C",
-      "status": "unsupported",
-      "note": "requires scipy at runtime"
+      "status": "available",
+      "version": "0.26.0",
+      "wheel": "scikit_image-0.26.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "39c9976542c0815adcc690b09b2c03281085e44a5b12a1b9f281058eeb511db4"
     },
     "imageio": {
       "category": "C",
@@ -213,18 +217,22 @@
     },
     "scikit-learn": {
       "category": "D",
-      "status": "unsupported",
-      "note": "requires scipy at runtime"
+      "status": "available",
+      "version": "1.9.1",
+      "wheel": "scikit_learn-1.9.1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "97df345a3f3472cf12752b775bff7c761aa5a90488d24e4244fef8b516dc0f15"
     },
     "onnx": {
       "category": "D",
-      "status": "unsupported",
-      "note": "requires protobuf C++ + large CMake build"
+      "status": "available",
+      "version": "1.23.2",
+      "wheel": "onnx-1.23.2-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "efb2146365891a3544d9589d64f71be78ab93717eea31203a8e969296e2af712"
     },
     "onnxruntime": {
       "category": "D",
-      "status": "unsupported",
-      "note": "requires Bazel/large C++ build"
+      "status": "pending",
+      "note": "large C++ build (onnx+protobuf now available as prerequisites)"
     },
     "tokenizers": {
       "category": "D",
@@ -249,8 +257,8 @@
     },
     "tflite-runtime": {
       "category": "D",
-      "status": "unsupported",
-      "note": "requires Bazel build"
+      "status": "pending",
+      "note": "requires Bazel + TensorFlow monorepo build"
     },
     "h5py": {
       "category": "D",
@@ -338,8 +346,8 @@
     },
     "numba": {
       "category": "F",
-      "status": "unsupported",
-      "note": "requires LLVM (llvmlite) cross-build"
+      "status": "pending",
+      "note": "requires LLVM cross-build for llvmlite"
     },
     "joblib": {
       "category": "F",
@@ -400,8 +408,8 @@
   },
   "summary": {
     "requested_unique": 58,
-    "available": 51,
-    "blocked": 7,
-    "pending": 0
+    "available": 55,
+    "blocked": 0,
+    "pending": 3
   }
 }

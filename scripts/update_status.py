@@ -26,15 +26,7 @@ REQUESTED = [
     "typer", "jinja2", "jsonschema", "pydantic",
 ]
 
-BLOCKED = {
-    "scipy": "Fortran (flang) toolchain required; no NDK Fortran compiler",
-    "scikit-learn": "requires scipy at runtime",
-    "scikit-image": "requires scipy at runtime",
-    "numba": "requires LLVM (llvmlite) cross-build",
-    "onnx": "requires protobuf C++ + large CMake build",
-    "onnxruntime": "requires Bazel/large C++ build",
-    "tflite-runtime": "requires Bazel build",
-}
+BLOCKED = {}
 
 PENDING = {
     "onnxruntime": "large C++ build (onnx+protobuf now available as prerequisites)",

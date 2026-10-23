@@ -513,10 +513,10 @@
     {
       "package": "opencv-python-headless",
       "version": "4.11.0",
-      "filename": "opencv_python_headless-4.11.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "826f5f707390411a250452503f793c1b31df75182b46d4c32eed800c1acaf5c2",
-      "size": 12357802,
-      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/opencv_python_headless-4.11.0-cp313-cp313-android_28_arm64_v8a.whl"
+      "filename": "opencv_python_headless-4.11.0-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "76e02e13bd0ad41bea79ef4768c6a5cbb851a417960c9132ac5c567826106fd6",
+      "size": 12357679,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/opencv_python_headless-4.11.0-1-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "orjson",

@@ -514,8 +514,8 @@
       "package": "onnxruntime",
       "version": "1.31.0",
       "filename": "onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "67c433ce17a6de52dce479cb42f877bb4da50237ee2bd3bab43e4c51c2a30bb6",
-      "size": 11324944,
+      "sha256": "ef2f263652411e192f5cdb0cf8d1d6157ca8365117e26a7d7f18cd4971c679dd",
+      "size": 11325213,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {

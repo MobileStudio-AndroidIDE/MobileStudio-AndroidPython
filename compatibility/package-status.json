@@ -259,8 +259,10 @@
     },
     "tflite-runtime": {
       "category": "D",
-      "status": "pending",
-      "note": "requires Bazel + TensorFlow monorepo build"
+      "status": "available",
+      "version": "2.20.0",
+      "wheel": "tflite_runtime-2.20.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "563b43171c09ec71936472c68a73fab4533bd4c3a1c7526b29ad439297b3f87f"
     },
     "h5py": {
       "category": "D",
@@ -412,8 +414,8 @@
   },
   "summary": {
     "requested_unique": 58,
-    "available": 57,
+    "available": 58,
     "blocked": 0,
-    "pending": 1
+    "pending": 0
   }
 }

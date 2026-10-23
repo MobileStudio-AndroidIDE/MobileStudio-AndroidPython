@@ -28,11 +28,7 @@ REQUESTED = [
 
 BLOCKED = {}
 
-PENDING = {
-    "onnxruntime": "large C++ build (onnx+protobuf now available as prerequisites)",
-    "tflite-runtime": "requires Bazel + TensorFlow monorepo build",
-    "numba": "requires LLVM cross-build for llvmlite",
-}
+PENDING = {}
 
 CATEGORY = {
     "packaging": "A", "setuptools": "A", "wheel": "A", "pip": "A",

@@ -831,6 +831,14 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tabulate-0.10.0-py3-none-any.whl"
     },
     {
+      "package": "tflite-runtime",
+      "version": "2.20.0",
+      "filename": "tflite_runtime-2.20.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "563b43171c09ec71936472c68a73fab4533bd4c3a1c7526b29ad439297b3f87f",
+      "size": 2799435,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/tflite_runtime-2.20.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
       "package": "threadpoolctl",
       "version": "3.7.0",
       "filename": "threadpoolctl-3.7.0-py3-none-any.whl",

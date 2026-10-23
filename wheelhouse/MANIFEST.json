@@ -199,6 +199,14 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/contourpy-1.0.7-0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
+      "package": "contourpy",
+      "version": "1.4.0",
+      "filename": "contourpy-1.4.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "435b96a53a515b31c1827f079c7d1e7d33232051096c6fe08f84f711743afc60",
+      "size": 316450,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/contourpy-1.4.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
       "package": "cryptography",
       "version": "42.0.8",
       "filename": "cryptography-42.0.8-1-cp313-cp313-android_28_arm64_v8a.whl",
@@ -250,8 +258,8 @@
       "package": "h5py",
       "version": "3.16.0",
       "filename": "h5py-3.16.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "544ec331d3a0bc472136b24691577e3413ca7535688c82d246221a99409ea2b8",
-      "size": 47085894,
+      "sha256": "1703efb9197e0014d1b2edb1a4e9646af7a260f9684cc193418705df480ddeca",
+      "size": 47110447,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/h5py-3.16.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
@@ -377,10 +385,10 @@
     {
       "package": "matplotlib",
       "version": "3.8.4",
-      "filename": "matplotlib-3.8.4-0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "bc9cdfde0db2c3a66e5fa62ac359b1d0b18439373f8d34a5fdda057dbdbb8913",
-      "size": 7465512,
-      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/matplotlib-3.8.4-0-cp313-cp313-android_28_arm64_v8a.whl"
+      "filename": "matplotlib-3.8.4-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "60c2f39144f399563a16d959d7f2acd3ff5819ef77195543761358eebee6596f",
+      "size": 30193317,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/matplotlib-3.8.4-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "mdurl",
@@ -389,6 +397,14 @@
       "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
       "size": 9979,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/mdurl-0.1.2-py3-none-any.whl"
+    },
+    {
+      "package": "ml-dtypes",
+      "version": "0.6.0",
+      "filename": "ml_dtypes-0.6.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "d45dce6f190b44a0cbd6607d5b78cf1f4bd1dab6c71bb9c06ef6ccd7f950b8b6",
+      "size": 579655,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/ml_dtypes-0.6.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "mpmath",
@@ -431,6 +447,22 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/numpy-1.26.2-0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
+      "package": "numpy",
+      "version": "2.5.4",
+      "filename": "numpy-2.5.4-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "04bdb53417c0f0679e21b2feb39d3ea0fe253991d5c7716bd4ce5af3673f23c1",
+      "size": 5868095,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/numpy-2.5.4-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "opencv-python-headless",
+      "version": "4.11.0",
+      "filename": "opencv_python_headless-4.11.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "826f5f707390411a250452503f793c1b31df75182b46d4c32eed800c1acaf5c2",
+      "size": 12357802,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/opencv_python_headless-4.11.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
       "package": "orjson",
       "version": "3.13.0",
       "filename": "orjson-3.13.0-cp313-cp313-android_28_arm64_v8a.whl",
@@ -453,6 +485,14 @@
       "sha256": "dd4fd48af1231b126cf200971033a43d6d9b027e0af75c72bc0ef1349432fddc",
       "size": 11333692,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pandas-2.1.3-1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.3",
+      "filename": "pandas-2.3.3-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "f12a000ed7937ead6e7e879735efd95e7804513404f6acf5f56579d1194161da",
+      "size": 10738269,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pandas-2.3.3-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "pillow",
@@ -501,6 +541,14 @@
       "sha256": "8c5486e60532363ed520112875750e17794bd7d5019d39d5b3de7d7e73c38f81",
       "size": 226767,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/psutil-7.1.3-1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "pycocotools",
+      "version": "2.0.11",
+      "filename": "pycocotools-2.0.11-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "b6d25d88b5b95e1a77765227b4aa1d7bfffcb78823651444cc3f52572ff23bb4",
+      "size": 78847,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/pycocotools-2.0.11-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "pycocotools",
@@ -621,6 +669,30 @@
       "sha256": "6ca28bba838d3dcf9ab1d3905f62e583ed1558c3495055130527f301a975d627",
       "size": 525835,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/safetensors-0.8.0-cp310-abi3-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.26.0",
+      "filename": "scikit_image-0.26.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "39c9976542c0815adcc690b09b2c03281085e44a5b12a1b9f281058eeb511db4",
+      "size": 12271011,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/scikit_image-0.26.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "scipy",
+      "version": "1.18.1",
+      "filename": "scipy-1.18.1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "481291d3c8d0fd724f6284f1b84a1c87cd918c46fa40ce16625f8201aaa45ac6",
+      "size": 22170239,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/scipy-1.18.1-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "sentencepiece",
+      "version": "0.2.0",
+      "filename": "sentencepiece-0.2.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "ee7ed10ad5bc73020a986abc8c650c3907adeffcb9c7ecbb507fb241af707acf",
+      "size": 2998474,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/sentencepiece-0.2.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
       "package": "setuptools",

@@ -37,8 +37,9 @@ BLOCKED = {
 }
 
 PENDING = {
-    "opencv-python-headless": "CMake build of OpenCV planned",
-    "sentencepiece": "SWIG + CMake build planned",
+    "onnxruntime": "large C++ build in progress",
+    "tflite-runtime": "Bazel build planned",
+    "numba": "LLVM (llvmlite) cross-build planned",
 }
 
 CATEGORY = {

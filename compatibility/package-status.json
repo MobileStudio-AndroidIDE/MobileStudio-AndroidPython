@@ -180,8 +180,10 @@
     },
     "opencv-python-headless": {
       "category": "C",
-      "status": "pending",
-      "note": "CMake build of OpenCV planned"
+      "status": "available",
+      "version": "4.11.0",
+      "wheel": "opencv_python_headless-4.11.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "826f5f707390411a250452503f793c1b31df75182b46d4c32eed800c1acaf5c2"
     },
     "scikit-image": {
       "category": "C",
@@ -205,9 +207,9 @@
     "pycocotools": {
       "category": "C",
       "status": "available",
-      "version": "2.0.8",
-      "wheel": "pycocotools-2.0.8-0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "aaddfeba326973f37a2ea302db468fc06ceb003827f8c7f2b2990f0c6306f609"
+      "version": "2.0.11",
+      "wheel": "pycocotools-2.0.11-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "b6d25d88b5b95e1a77765227b4aa1d7bfffcb78823651444cc3f52572ff23bb4"
     },
     "scikit-learn": {
       "category": "D",
@@ -240,8 +242,10 @@
     },
     "sentencepiece": {
       "category": "D",
-      "status": "pending",
-      "note": "SWIG + CMake build planned"
+      "status": "available",
+      "version": "0.2.0",
+      "wheel": "sentencepiece-0.2.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "ee7ed10ad5bc73020a986abc8c650c3907adeffcb9c7ecbb507fb241af707acf"
     },
     "tflite-runtime": {
       "category": "D",
@@ -253,7 +257,7 @@
       "status": "available",
       "version": "3.16.0",
       "wheel": "h5py-3.16.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "544ec331d3a0bc472136b24691577e3413ca7535688c82d246221a99409ea2b8"
+      "sha256": "1703efb9197e0014d1b2edb1a4e9646af7a260f9684cc193418705df480ddeca"
     },
     "cython": {
       "category": "E",
@@ -322,8 +326,8 @@
       "category": "F",
       "status": "available",
       "version": "3.8.4",
-      "wheel": "matplotlib-3.8.4-0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "bc9cdfde0db2c3a66e5fa62ac359b1d0b18439373f8d34a5fdda057dbdbb8913"
+      "wheel": "matplotlib-3.8.4-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "60c2f39144f399563a16d959d7f2acd3ff5819ef77195543761358eebee6596f"
     },
     "networkx": {
       "category": "F",
@@ -396,8 +400,8 @@
   },
   "summary": {
     "requested_unique": 58,
-    "available": 49,
+    "available": 51,
     "blocked": 7,
-    "pending": 2
+    "pending": 0
   }
 }

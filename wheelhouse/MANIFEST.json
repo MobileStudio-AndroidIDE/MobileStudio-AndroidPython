@@ -378,8 +378,8 @@
       "package": "llvmlite",
       "version": "0.50.0",
       "filename": "llvmlite-0.50.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "90cef58ae7678dd1b927dc867b6b5a333bf79ca0ff6b74c05906b9e8237c4d10",
-      "size": 242610410,
+      "sha256": "36a1cb7d5dfdf3d151c6aaac8c7a30e0239d5c21702a891923b61dba18550b71",
+      "size": 242640946,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/llvmlite-0.50.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
@@ -434,8 +434,8 @@
       "package": "ml-dtypes",
       "version": "0.6.0",
       "filename": "ml_dtypes-0.6.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "d45dce6f190b44a0cbd6607d5b78cf1f4bd1dab6c71bb9c06ef6ccd7f950b8b6",
-      "size": 579655,
+      "sha256": "e16eecb477ca564a21c3dd7f1b9d4c3e379c80787886ffa4e9822b8e48e1fe1e",
+      "size": 579663,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/ml_dtypes-0.6.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {
@@ -461,6 +461,14 @@
       "sha256": "d5a5a13077567347cd9cbec3c7230307e1fbadaa1176522b01fe43899a47d1df",
       "size": 27275,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/multidict-6.1.0-0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
+      "package": "narwhals",
+      "version": "2.27.1",
+      "filename": "narwhals-2.27.1-py3-none-any.whl",
+      "sha256": "d057df13f5852b8e157596e82eb5e955fad267425df5e420e0ee9863da483b31",
+      "size": 483211,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/narwhals-2.27.1-py3-none-any.whl"
     },
     {
       "package": "networkx",
@@ -506,8 +514,8 @@
       "package": "onnxruntime",
       "version": "1.31.0",
       "filename": "onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl",
-      "sha256": "c14c4ef23babac641312e004bd8bd8ecfb2e202057a82c408dafcb36bb580cb3",
-      "size": 10352710,
+      "sha256": "67c433ce17a6de52dce479cb42f877bb4da50237ee2bd3bab43e4c51c2a30bb6",
+      "size": 11324944,
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/onnxruntime-1.31.0-cp313-cp313-android_28_arm64_v8a.whl"
     },
     {

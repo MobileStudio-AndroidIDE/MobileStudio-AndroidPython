@@ -57,3 +57,9 @@ def _ms_pip_bootstrap() -> None:
 
 
 _ms_pip_bootstrap()
+
+# Install the native-extension import hook (jniLibs resident extensions).
+try:
+    import ms_ext_hook  # noqa: F401
+except Exception:
+    pass

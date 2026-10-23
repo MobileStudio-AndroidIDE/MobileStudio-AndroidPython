@@ -84,6 +84,30 @@ cp dist/app-bundle/PyBridge.java                   <앱>/app/src/main/java/com/a
 
 앱의 `PyBridge.BUNDLE_VERSION`을 올리면 기기에서 재해제됩니다.
 
+## 검증 상태 (2026-10-23, SM-S926N / Android 14)
+
+앱 컨텍스트(`run-as com.aide.mobilestudio`, 실제 앱 UID)에서
+`nativeLibraryDir`의 `libpyexec.so` 실행 + assets 번들 해제 환경으로
+다음 전 항목 import/기능 테스트 통과 (`ALL-SMOKE-OK`):
+
+| 패키지 | 버전 | 동작 확인 |
+|--------|------|-----------|
+| numpy | 2.5.4 | 행렬 합 36 |
+| cv2 (opencv-python-headless) | 4.11.0 | cvtColor |
+| scipy | 1.18.1 | linalg.inv |
+| pandas | 2.3.3 | DataFrame sum |
+| scikit-learn | 1.9.1 | LinearRegression fit |
+| matplotlib | 3.8.4 | Agg plot |
+| onnx | 1.23.2 | make_model |
+| onnxruntime | 1.31.0 | CPUExecutionProvider |
+| tflite-runtime | 2.20.0 | Interpreter |
+| tokenizers | 0.23.3 | import |
+| safetensors | 0.8.0 | import |
+| numba | 0.68.0 | @njit 컴파일 실행 (jit(10)=45) |
+| pydantic | 2.14.1 | BaseModel 검증 |
+
+APK: 디버그 빌드 403 MB (`app-debug.apk`), 설치 후 정상 기동 확인.
+
 ## 문제 해결
 
 | 증상 | 원인/해결 |

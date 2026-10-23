@@ -247,6 +247,14 @@
       "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/h11-0.16.0-py3-none-any.whl"
     },
     {
+      "package": "h5py",
+      "version": "3.16.0",
+      "filename": "h5py-3.16.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "544ec331d3a0bc472136b24691577e3413ca7535688c82d246221a99409ea2b8",
+      "size": 47085894,
+      "url": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/download/android-arm64-py313-v1/h5py-3.16.0-cp313-cp313-android_28_arm64_v8a.whl"
+    },
+    {
       "package": "httpcore",
       "version": "1.0.9",
       "filename": "httpcore-1.0.9-py3-none-any.whl",

@@ -1,334 +1,403 @@
 {
-  "schema": "https://mobilestudio-androidide.github.io/MobileStudio-AndroidPython/schema/package-status-v1.json",
   "python_version": "3.13.0",
   "android_abi": "arm64-v8a",
-  "generated": "2026-10-22T22:40:00Z",
+  "android_api": 28,
+  "index": "https://raw.githubusercontent.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/main/simple/",
+  "release": "https://github.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/releases/tag/android-arm64-py313-v1",
   "packages": {
-    "pip": {
-      "version": "24.0",
-      "type": "pure-python",
-      "status": "pending",
-      "test": "python3.13 -m pip --version"
-    },
     "packaging": {
+      "category": "A",
+      "status": "available",
       "version": "26.3",
-      "type": "pure-python",
-      "status": "installed"
+      "wheel": "packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
     },
     "setuptools": {
+      "category": "A",
+      "status": "available",
       "version": "84.2.1",
-      "type": "pure-python",
-      "status": "installed"
+      "wheel": "setuptools-84.2.1-py3-none-any.whl",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
     },
     "wheel": {
+      "category": "A",
+      "status": "available",
       "version": "0.48.0",
-      "type": "pure-python",
-      "status": "installed"
+      "wheel": "wheel-0.48.0-py3-none-any.whl",
+      "sha256": "3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab"
+    },
+    "pip": {
+      "category": "A",
+      "status": "available",
+      "version": "26.2.2",
+      "wheel": "pip-26.2.2-py3-none-any.whl",
+      "sha256": "fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70"
     },
     "requests": {
+      "category": "A",
+      "status": "available",
       "version": "2.34.2",
-      "type": "pure-python",
-      "status": "installed",
-      "dependencies": [
-        "urllib3",
-        "certifi",
-        "charset-normalizer",
-        "idna"
-      ]
-    },
-    "pyyaml": {
-      "version": "6.0.2",
-      "type": "native",
-      "status": "pending",
-      "note": "C extension available but pure Python fallback works"
-    },
-    "pillow": {
-      "version": "10.4.0",
-      "type": "native",
-      "status": "pending",
-      "test": "PIL.Image.new"
-    },
-    "numpy": {
-      "version": "1.26.4",
-      "type": "native",
-      "status": "pending",
-      "test": "numpy.arange(5).sum()==10"
-    },
-    "scipy": {
-      "version": "1.13.1",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy"
-      ]
-    },
-    "pandas": {
-      "version": "2.2.2",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy"
-      ]
-    },
-    "opencv-python-headless": {
-      "version": "4.10.0.84",
-      "type": "native",
-      "status": "pending",
-      "test": "cv2.cvtColor + cv2.__version__"
-    },
-    "sympy": {
-      "version": "1.13",
-      "type": "pure-python",
-      "status": "pending"
-    },
-    "scikit-learn": {
-      "version": "1.5.2",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy"
-      ]
-    },
-    "matplotlib": {
-      "version": "3.9.0",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy",
-        "pillow"
-      ]
-    },
-    "cryptography": {
-      "version": "43.0.0",
-      "type": "native",
-      "status": "pending"
-    },
-    "httpx": {
-      "version": "0.28.1",
-      "type": "pure-python",
-      "status": "installed"
-    },
-    "aiohttp": {
-      "version": "3.9.5",
-      "type": "native",
-      "status": "pending"
-    },
-    "lxml": {
-      "version": "5.2.2",
-      "type": "native",
-      "status": "pending"
-    },
-    "protobuf": {
-      "version": "5.27.0",
-      "type": "native",
-      "status": "pending"
-    },
-    "beautifulsoup4": {
-      "version": "4.12.3",
-      "type": "pure-python",
-      "status": "pending"
-    },
-    "tomli": {
-      "version": "2.5.0",
-      "type": "pure-python",
-      "status": "installed"
-    },
-    "orjson": {
-      "version": "3.10.5",
-      "type": "native",
-      "status": "pending"
-    },
-    "msgpack": {
-      "version": "1.0.8",
-      "type": "native",
-      "status": "pending"
-    },
-    "tzlocal": {
-      "version": "5.2",
-      "type": "pure-python",
-      "status": "pending"
-    },
-    "charset-normalizer": {
-      "version": "3.5.2",
-      "type": "pure-python",
-      "status": "installed"
-    },
-    "certifi": {
-      "version": "2026.10.19",
-      "type": "pure-python",
-      "status": "installed"
-    },
-    "idna": {
-      "version": "3.20",
-      "type": "pure-python",
-      "status": "installed"
+      "wheel": "requests-2.34.2-py3-none-any.whl",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
     },
     "urllib3": {
+      "category": "A",
+      "status": "available",
       "version": "2.8.0",
-      "type": "pure-python",
-      "status": "installed"
+      "wheel": "urllib3-2.8.0-py3-none-any.whl",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    },
+    "certifi": {
+      "category": "A",
+      "status": "available",
+      "version": "2026.10.19",
+      "wheel": "certifi-2026.10.19-py3-none-any.whl",
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b"
+    },
+    "charset-normalizer": {
+      "category": "A",
+      "status": "available",
+      "version": "3.5.2",
+      "wheel": "charset_normalizer-3.5.2-py3-none-any.whl",
+      "sha256": "b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685"
+    },
+    "idna": {
+      "category": "A",
+      "status": "available",
+      "version": "3.20",
+      "wheel": "idna-3.20-py3-none-any.whl",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    "httpx": {
+      "category": "A",
+      "status": "available",
+      "version": "0.28.1",
+      "wheel": "httpx-0.28.1-py3-none-any.whl",
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+    },
+    "aiohttp": {
+      "category": "A",
+      "status": "available",
+      "version": "3.10.10",
+      "wheel": "aiohttp-3.10.10-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "e31f52c657095663759809cf17ac7a87b458ef5cfd12134af3fa2946da077d83"
     },
     "websockets": {
-      "version": "14.1",
-      "type": "native",
-      "status": "pending"
+      "category": "A",
+      "status": "available",
+      "version": "17.3",
+      "wheel": "websockets-17.3-py3-none-any.whl",
+      "sha256": "dc2b495a92b3971966bf102e73589f950db3ec1ca6713265355ce7771d97b199"
     },
-    "cffi": {
-      "version": "1.16.0",
-      "type": "native",
-      "status": "pending"
+    "numpy": {
+      "category": "B",
+      "status": "available",
+      "version": "1.26.2",
+      "wheel": "numpy-1.26.2-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "60c27fb5018271b0479cc6972a84f70f38685a397b787921a96019ac71152f60"
     },
-    "lz4": {
-      "version": "4.4.0",
-      "type": "native",
-      "status": "pending"
+    "pandas": {
+      "category": "B",
+      "status": "available",
+      "version": "2.1.3",
+      "wheel": "pandas-2.1.3-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "dd4fd48af1231b126cf200971033a43d6d9b027e0af75c72bc0ef1349432fddc"
     },
-    "zstandard": {
-      "version": "0.23.0",
-      "type": "native",
-      "status": "pending"
+    "scipy": {
+      "category": "B",
+      "status": "unsupported",
+      "note": "Fortran (flang) toolchain required; no NDK Fortran compiler"
     },
-    "regex": {
-      "version": "2024.7.25",
-      "type": "native",
-      "status": "pending"
+    "sympy": {
+      "category": "B",
+      "status": "available",
+      "version": "1.14.0",
+      "wheel": "sympy-1.14.0-py3-none-any.whl",
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5"
     },
-    "psutil": {
-      "version": "6.0.0",
-      "type": "native",
-      "status": "pending"
+    "mpmath": {
+      "category": "B",
+      "status": "available",
+      "version": "1.4.1",
+      "wheel": "mpmath-1.4.1-py3-none-any.whl",
+      "sha256": "dc4f0ea2304480d4a9a48a94c1020571558ade522b44a6912efac63a586e140f"
     },
-    "joblib": {
-      "version": "1.4.2",
-      "type": "pure-python",
-      "status": "pending"
+    "pyyaml": {
+      "category": "B",
+      "status": "available",
+      "version": "6.0.3",
+      "wheel": "pyyaml-6.0.3-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "d7af5181ad5da83dbd74928cb463f6f83661c4f03363ca2e7e8c1465abe64901"
     },
-    "tqdm": {
-      "version": "4.66.4",
-      "type": "pure-python",
-      "status": "pending"
+    "tomli": {
+      "category": "B",
+      "status": "available",
+      "version": "2.5.0",
+      "wheel": "tomli-2.5.0-py3-none-any.whl",
+      "sha256": "32a7b79ac57a2e83670ce329ccf675798bc5a2094783a63676866b70503f2e2b"
     },
-    "rich": {
-      "version": "13.7.1",
-      "type": "pure-python",
-      "status": "pending"
+    "orjson": {
+      "category": "E",
+      "status": "available",
+      "version": "3.13.0",
+      "wheel": "orjson-3.13.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "55164c13bad03e1c94edcc96cfe233d91dfb002d91d49cde1b981c4bbe1c9830"
     },
-    "click": {
-      "version": "8.1.7",
-      "type": "pure-python",
-      "status": "pending"
+    "msgpack": {
+      "category": "B",
+      "status": "available",
+      "version": "1.2.3",
+      "wheel": "msgpack-1.2.3-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "886505a87260dd07b0c6aefbf6c02eb1086dab9a037d03246ff40d514415e28a"
     },
-    "typer": {
-      "version": "0.12.3",
-      "type": "pure-python",
-      "status": "pending"
+    "protobuf": {
+      "category": "B",
+      "status": "available",
+      "version": "7.36.2",
+      "wheel": "protobuf-7.36.2-py3-none-any.whl",
+      "sha256": "bdb3a345d48db958e6ce1f18e508beb0cc981d64f24088427549c866cd039f1e"
     },
-    "jinja2": {
-      "version": "3.1.4",
-      "type": "pure-python",
-      "status": "pending"
+    "lxml": {
+      "category": "B",
+      "status": "available",
+      "version": "5.3.0",
+      "wheel": "lxml-5.3.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "1a90ee9b8795eb5b5b188be1b8677e7043e15a070d3ae6a6a85b166a1babea5d"
     },
-    "jsonschema": {
-      "version": "4.21.1",
-      "type": "pure-python",
-      "status": "pending"
+    "beautifulsoup4": {
+      "category": "B",
+      "status": "available",
+      "version": "4.15.0",
+      "wheel": "beautifulsoup4-4.15.0-py3-none-any.whl",
+      "sha256": "d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9"
     },
-    "pydantic": {
-      "version": "2.9.2",
-      "type": "native",
-      "status": "pending"
+    "pillow": {
+      "category": "C",
+      "status": "available",
+      "version": "11.0.0",
+      "wheel": "pillow-11.0.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "ff6a9244d9e993219c6d8e7f26e174a8a0c24a769684d46f951f0ab5b8e33202"
+    },
+    "opencv-python-headless": {
+      "category": "C",
+      "status": "pending",
+      "note": "CMake build of OpenCV planned"
     },
     "scikit-image": {
-      "version": "0.24.0",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy"
-      ]
+      "category": "C",
+      "status": "unsupported",
+      "note": "requires scipy at runtime"
     },
     "imageio": {
-      "version": "2.35.2",
-      "type": "pure-python",
-      "status": "pending"
+      "category": "C",
+      "status": "available",
+      "version": "2.38.1",
+      "wheel": "imageio-2.38.1-py3-none-any.whl",
+      "sha256": "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9"
     },
     "tifffile": {
-      "version": "2024.7.11",
-      "type": "pure-python",
-      "status": "pending"
+      "category": "C",
+      "status": "available",
+      "version": "2026.10.15",
+      "wheel": "tifffile-2026.10.15-py3-none-any.whl",
+      "sha256": "3dcf6c56731a45c1f85c81e90dad922b0a380a2d639e77f71207e010f8ef0f7b"
     },
     "pycocotools": {
-      "version": "2.0.6",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy"
-      ]
+      "category": "C",
+      "status": "available",
+      "version": "2.0.8",
+      "wheel": "pycocotools-2.0.8-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "aaddfeba326973f37a2ea302db468fc06ceb003827f8c7f2b2990f0c6306f609"
+    },
+    "scikit-learn": {
+      "category": "D",
+      "status": "unsupported",
+      "note": "requires scipy at runtime"
     },
     "onnx": {
-      "version": "1.16.0",
-      "type": "native",
-      "status": "pending"
+      "category": "D",
+      "status": "unsupported",
+      "note": "requires protobuf C++ + large CMake build"
     },
     "onnxruntime": {
-      "version": "1.18.0",
-      "type": "native",
-      "status": "pending",
-      "note": "Investigate Android support"
+      "category": "D",
+      "status": "unsupported",
+      "note": "requires Bazel/large C++ build"
     },
     "tokenizers": {
-      "version": "0.19.1",
-      "type": "native",
-      "status": "pending"
+      "category": "D",
+      "status": "available",
+      "version": "0.23.3",
+      "wheel": "tokenizers-0.23.3-cp310-abi3-android_28_arm64_v8a.whl",
+      "sha256": "de67b84232097f72993b30b3deb6f43e46a6b8218c7bfb42785d4428f678c58f"
     },
     "safetensors": {
-      "version": "0.4.3",
-      "type": "native",
-      "status": "pending"
+      "category": "D",
+      "status": "available",
+      "version": "0.8.0",
+      "wheel": "safetensors-0.8.0-cp310-abi3-android_28_arm64_v8a.whl",
+      "sha256": "6ca28bba838d3dcf9ab1d3905f62e583ed1558c3495055130527f301a975d627"
     },
     "sentencepiece": {
-      "version": "0.2.0",
-      "type": "native",
-      "status": "pending"
+      "category": "D",
+      "status": "pending",
+      "note": "SWIG + CMake build planned"
     },
     "tflite-runtime": {
-      "version": "2.16.0",
-      "type": "native",
-      "status": "pending",
-      "note": "Google official Android runtime"
+      "category": "D",
+      "status": "unsupported",
+      "note": "requires Bazel build"
     },
     "h5py": {
-      "version": "3.11.0",
-      "type": "native",
-      "status": "pending",
-      "depends": [
-        "numpy"
-      ]
+      "category": "D",
+      "status": "available",
+      "version": "3.16.0",
+      "wheel": "h5py-3.16.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "544ec331d3a0bc472136b24691577e3413ca7535688c82d246221a99409ea2b8"
+    },
+    "cython": {
+      "category": "E",
+      "status": "available",
+      "version": "3.3.0",
+      "wheel": "cython-3.3.0-py3-none-any.whl",
+      "sha256": "9b24b5c8cd536946b62086fcafee6d5509d3f549f72d553d2336af87ffbe0da1"
+    },
+    "cffi": {
+      "category": "E",
+      "status": "available",
+      "version": "1.17.1",
+      "wheel": "cffi-1.17.1-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "22c76d5184b5cfe821df6576d0d07c855fe3cb8b07a14db184a9e758b0e2eeee"
+    },
+    "cryptography": {
+      "category": "E",
+      "status": "available",
+      "version": "42.0.8",
+      "wheel": "cryptography-42.0.8-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "ebc9dd181c03b66bcc442f201649a459b309625f10b72fd4d3f795d030571a9f"
+    },
+    "lz4": {
+      "category": "E",
+      "status": "available",
+      "version": "4.3.3",
+      "wheel": "lz4-4.3.3-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "f71c7d08be3a085d6d2603842d056cd436f21dcc9b24b16044fa5ab2df358dda"
+    },
+    "zstandard": {
+      "category": "E",
+      "status": "available",
+      "version": "0.23.0",
+      "wheel": "zstandard-0.23.0-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "5b88ef3c1f81db14b019c6972b6241598c20fedf3ce2391ee798470b3128ef54"
+    },
+    "regex": {
+      "category": "E",
+      "status": "available",
+      "version": "2024.9.11",
+      "wheel": "regex-2024.9.11-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "41e9755d5abc2d41633f48ba45b3159b132eed6c512386c816009cdfa11fbb85"
+    },
+    "psutil": {
+      "category": "E",
+      "status": "available",
+      "version": "7.1.3",
+      "wheel": "psutil-7.1.3-1-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "8c5486e60532363ed520112875750e17794bd7d5019d39d5b3de7d7e73c38f81"
     },
     "uvloop": {
-      "version": "0.19.0",
-      "type": "native",
-      "status": "unsupported",
-      "note": "Requires libuv, Android support limited"
+      "category": "E",
+      "status": "available",
+      "version": "0.23.0",
+      "wheel": "uvloop-0.23.0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "39177dbc12be0e90415b78630909a388156284791cd9cc1ad29a444e7cb367c9"
+    },
+    "sqlite-utils": {
+      "category": "E",
+      "status": "available",
+      "version": "4.2.1",
+      "wheel": "sqlite_utils-4.2.1-py3-none-any.whl",
+      "sha256": "7fbaee670713b25eceba05779b844f0895efaf680d9a226fa5ba7dfe165721c5"
+    },
+    "matplotlib": {
+      "category": "F",
+      "status": "available",
+      "version": "3.8.4",
+      "wheel": "matplotlib-3.8.4-0-cp313-cp313-android_28_arm64_v8a.whl",
+      "sha256": "bc9cdfde0db2c3a66e5fa62ac359b1d0b18439373f8d34a5fdda057dbdbb8913"
+    },
+    "networkx": {
+      "category": "F",
+      "status": "available",
+      "version": "3.7",
+      "wheel": "networkx-3.7-py3-none-any.whl",
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0"
     },
     "numba": {
-      "version": "0.60.0",
-      "type": "native",
+      "category": "F",
       "status": "unsupported",
-      "note": "LLVM-based, Android ARM64 not officially supported"
+      "note": "requires LLVM (llvmlite) cross-build"
     },
-    "torch": {
-      "version": "2.5.0",
-      "type": "native",
-      "status": "unsupported",
-      "note": "Investigate PyTorch Mobile for Android"
+    "joblib": {
+      "category": "F",
+      "status": "available",
+      "version": "1.6.0",
+      "wheel": "joblib-1.6.0-py3-none-any.whl",
+      "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba"
+    },
+    "tqdm": {
+      "category": "F",
+      "status": "available",
+      "version": "4.70.1",
+      "wheel": "tqdm-4.70.1-py3-none-any.whl",
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73"
+    },
+    "rich": {
+      "category": "F",
+      "status": "available",
+      "version": "15.0.0",
+      "wheel": "rich-15.0.0-py3-none-any.whl",
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+    },
+    "click": {
+      "category": "F",
+      "status": "available",
+      "version": "8.5.0",
+      "wheel": "click-8.5.0-py3-none-any.whl",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    },
+    "typer": {
+      "category": "F",
+      "status": "available",
+      "version": "0.27.3",
+      "wheel": "typer-0.27.3-py3-none-any.whl",
+      "sha256": "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff"
+    },
+    "jinja2": {
+      "category": "F",
+      "status": "available",
+      "version": "3.1.6",
+      "wheel": "jinja2-3.1.6-py3-none-any.whl",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    "jsonschema": {
+      "category": "F",
+      "status": "available",
+      "version": "4.26.0",
+      "wheel": "jsonschema-4.26.0-py3-none-any.whl",
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce"
+    },
+    "pydantic": {
+      "category": "F",
+      "status": "available",
+      "version": "2.14.1",
+      "wheel": "pydantic-2.14.1-py3-none-any.whl",
+      "sha256": "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454"
     }
   },
   "summary": {
-    "total": 56,
-    "pure_python": 31,
-    "native": 25,
-    "unsupported": 3,
-    "pending": 43,
-    "installed": 10
+    "requested_unique": 58,
+    "available": 49,
+    "blocked": 7,
+    "pending": 2
   }
 }

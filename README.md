@@ -77,6 +77,22 @@ See `compatibility/package-status.json` for the current build status of all 56 c
 | Native (C/C++ extension) | 25 |
 | Unsupported | 3 (uvloop, numba, torch) |
 
+## pip wheel index (Android ARM64 · CPython 3.13)
+
+**실제 설치는 pip 인덱스로 합니다.** 자세한 내용은 [`docs/PIP_INDEX.md`](docs/PIP_INDEX.md).
+
+```bash
+$PY/bin/python3.13 -m pip install \
+  --cert "$PY/lib/python3.13/site-packages/certifi/cacert.pem" \
+  --index-url https://raw.githubusercontent.com/MobileStudio-AndroidIDE/MobileStudio-AndroidPython/main/simple/ \
+  numpy pandas matplotlib
+```
+
+- 100+ wheel이 GitHub Release `android-arm64-py313-v1`에 업로드되어 있습니다.
+- 소스: PyPI 순수 wheel / Chaquopy 재태깅(android_24→28) / NDK r28 직접 빌드 /
+  Rust(maturin) 빌드.
+- `simple/`은 PEP 503 simple index이며 `wheelhouse/MANIFEST.json`에 SHA-256이 기록됩니다.
+
 ## Embedding in Android Apps
 
 See `docs/android_embed.md` for bundling the Python runtime into an APK via `jniLibs` + `assets/python/` and the `PyBridge.java` NDJSON bridge.
